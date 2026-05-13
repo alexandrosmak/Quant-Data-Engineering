@@ -4,7 +4,7 @@ The project is intentionally compact: it demonstrates clean ETL structure, data 
 
 ## Why this project
 
-A quant data engineering platform needs to make new datasets available safely. That means:
+A quant data engineering platform needs to make new datasets available safely (ETL). This includes extracting raw data from source, cleaning it and standardizing it, before loading it to subsequent analysis (i.e., reporting,  forecasting). That means:
 
 - ingest raw data without destroying the original source
 - normalize timestamps, symbols, event types, and numeric fields
