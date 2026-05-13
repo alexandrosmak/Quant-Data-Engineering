@@ -82,3 +82,6 @@ Failed checks:
 - The output is written as CSV for easy inspection and Parquet when available for columnar analytics.
 - The pipeline exits successfully but flags quality failures in the report, which is useful for research workflows where bad rows may need investigation rather than immediate deletion.
 
+
+<img width="1864" height="787" alt="image" src="https://github.com/user-attachments/assets/17bff52b-6d96-4e72-ae2c-72655b5ddc94" />
+
