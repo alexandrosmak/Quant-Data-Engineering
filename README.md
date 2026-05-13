@@ -34,7 +34,7 @@ Checks implemented:
 ## Repo structure
 
 ```text
-market-data-quality-pipeline/
+Quant-Data-Engineering/
 ├── data/
 │   ├── raw/sample_taq.csv
 │   └── processed/market_events.csv
