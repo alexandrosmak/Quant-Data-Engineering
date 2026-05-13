@@ -1,0 +1,22 @@
+[project]
+name = "market-data-quality-pipeline"
+version = "0.1.0"
+description = "Compact market-data ETL and data quality checks for quant research workflows."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pyarrow>=15.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
